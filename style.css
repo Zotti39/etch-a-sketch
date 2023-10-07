@@ -1,0 +1,33 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+#botao{
+    width: 10%;
+    height: 50px;
+    font-size: 16pt;
+    font-weight: bold;
+}
+#container, .btn, .linha, .coluna{
+    gap: 5px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    flex-direction: column;
+}
+.linha{
+    flex: 1;
+}
+.coluna{
+    flex: 1;
+    border: solid 1px red;
+    font-weight: bold;
+}
+.coluna:hover{
+    background-color: antiquewhite;
+    border: solid 2px rgb(215, 18, 18);
+    padding: 4px 9px;
+}
