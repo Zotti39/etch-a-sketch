@@ -4,11 +4,10 @@ html{
 }
 #botao{
     width: 10%;
-    height: 50px;
     font-size: 16pt;
     font-weight: bold;
 }
-#container, .btn, .linha, .coluna{
+#container, .btn, .linha, .coluna, #botao{
     gap: 5px;
     padding: 5px 10px;
     display: flex;
@@ -17,9 +16,11 @@ html{
 }
 #container{
     flex-direction: column;
+    gap: 0px;
 }
 .linha{
     flex: 1;
+    padding: 2.5px 10px;
 }
 .coluna{
     flex: 1;
