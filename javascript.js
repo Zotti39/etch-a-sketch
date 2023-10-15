@@ -32,7 +32,7 @@ function grid(){
     //Calling de Xtra1 credit function
     const gridArray = document.querySelectorAll(".coluna");
     gridArray.forEach(function(item) {
-        item.addEventListener("click", randomBack);
+        item.addEventListener("mouseout", randomBack, false);
     });
 }
 //Loads the function as soon as the page loads
